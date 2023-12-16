@@ -1,0 +1,22 @@
+.myselect {
+    /* Set text color */
+    color: #333;
+
+    /* Set background color */
+    background-color: #fff;
+
+    /* Add some padding inside the select box */
+    padding: 8px;
+
+    /* Add a border to the select box */
+    border: 1px solid #ccc;
+
+    /* Set the border radius for a rounded appearance */
+    border-radius: 4px;
+
+    /* Set the font size */
+    font-size: 16px;
+
+    /* Set cursor style on hover */
+    cursor: pointer;
+}

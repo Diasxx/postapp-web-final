@@ -1,8 +1,8 @@
 import React from 'react';
-
+import classes from "./MySelect.module.css";
 const MySelect = ({options,defaultValue,value,onChange}) => {
     return (
-        <select
+        <select className={classes.myselect}
             value={value}
             onChange={event => onChange(event.target.value)}
         >

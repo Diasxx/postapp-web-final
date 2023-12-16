@@ -1,6 +1,38 @@
-.myInput{
+.myInput {
     width: 100%;
-    padding: 5px 15px;
-    margin: 5px 0;
-    border: 1px solid teal;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #1565c0; /* New border color */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    background-color: #e3f2fd; /* New background color */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    /* Optional: Add box shadow for a subtle lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Optional: Add a hover effect */
+    &:hover {
+        border-color: #1976D2; /* New hover border color */
+    }
+
+    /* Optional: Add a focus effect */
+    &:focus {
+        outline: none;
+        border-color: #0D47A1; /* New focus border color */
+        box-shadow: 0 0 8px rgba(25, 118, 210, 0.5); /* New focus box shadow */
+    }
+
+    /* Optional: Style placeholder text */
+    &::placeholder {
+        color: #607d8b; /* New placeholder text color */
+    }
+
+    /* Optional: Style disabled state */
+    &:disabled {
+        background-color: #cfd8dc; /* New disabled background color */
+        cursor: not-allowed;
+    }
 }

@@ -49,7 +49,7 @@ function Posts() {
 
     return (
         <div className="App">
-            <MyButton style={{marginTop:30}} onClick={()=>setModal(true)}>
+            <MyButton style={{marginLeft:30,marginTop:20}} onClick={()=>setModal(true)}>
                 Create Post
             </MyButton>
             <MyModal
@@ -69,7 +69,7 @@ function Posts() {
 
             {isPostsLoading
                 ?<div style={{display:'flex',justifyContent:'center',marginTop:50}}><Loader/></div>
-                :<PostList remove={removePost} posts={sortedAndSearchedPosts} title="High level language"/>
+                :<PostList remove={removePost} posts={sortedAndSearchedPosts} title="Posts"/>
             }
 
             <Pagination

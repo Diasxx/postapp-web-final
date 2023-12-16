@@ -1,8 +1,27 @@
-.myBtn{
-    padding: 5px 15px;
-    color: teal;
-    font-size: 14px;
-    background: transparent;
-    border: 1px solid teal;
+.myBtn {
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px;
+    background: linear-gradient(to right, #4CAF50, #8BC34A); /* New color gradient */
+    border: 2px solid #4CAF50; /* New border color */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.myBtn:hover {
+    background: linear-gradient(to right, #8BC34A, #4CAF50); /* New hover color gradient */
+    color: #ffffff;
+    border-color: #8BC34A; /* New hover border color */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.myBtn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

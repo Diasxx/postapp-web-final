@@ -13,8 +13,8 @@ const Navbar = () => {
         <div className='navbar'>
             <MyButton onClick={logout}>Exit</MyButton>
             <div className="navbar__links">
-                <Link to="/about">About</Link>
-                <Link to="/posts">Posts</Link>
+                <Link style={{textDecoration:'none',color:'white'}} to="/about">About</Link>
+                <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/posts">Posts</Link>
             </div>
         </div>
     );
