@@ -14,6 +14,7 @@ const Navbar = () => {
             <MyButton onClick={logout}>Exit</MyButton>
             <div className="navbar__links">
                 <Link style={{textDecoration:'none',color:'white'}} to="/about">About</Link>
+                <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/contacts">Contacts</Link>
                 <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/posts">Posts</Link>
             </div>
         </div>
