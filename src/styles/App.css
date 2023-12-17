@@ -388,3 +388,34 @@ th {
     color: white;
 }
 
+/* Profile.css */
+
+.profile-container {
+    margin-top: 40px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.profile-container img {
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.profile-info {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+h2 {
+    color: #333;
+}
+
+

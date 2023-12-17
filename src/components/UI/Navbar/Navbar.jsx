@@ -11,11 +11,12 @@ const Navbar = () => {
     }
     return (
         <div className='navbar'>
-            <MyButton onClick={logout}>Exit</MyButton>
+            <MyButton style={{marginLeft:30}} onClick={logout}>Exit</MyButton>
             <div className="navbar__links">
-                <Link style={{textDecoration:'none',color:'white'}} to="/about">About</Link>
+                <Link style={{textDecoration:'none',color:'white'}} to="/posts">Posts</Link>
                 <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/contacts">Contacts</Link>
-                <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/posts">Posts</Link>
+                <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/About">About</Link>
+                <Link style={{textDecoration:'none',color:'white', marginLeft:'20px',marginRight:30}} to="/profile">Profile</Link>
             </div>
         </div>
     );
