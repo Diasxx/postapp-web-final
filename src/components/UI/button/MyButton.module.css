@@ -6,8 +6,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 5px;
-    background: linear-gradient(to right, #4CAF50, #8BC34A); /* New color gradient */
-    border: 2px solid #4CAF50; /* New border color */
+    background-color: #4CAF50;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -15,7 +14,7 @@
 }
 
 .myBtn:hover {
-    background: linear-gradient(to right, #8BC34A, #4CAF50); /* New hover color gradient */
+    background-color: #8BC34A; /* New hover background color */
     color: #ffffff;
     border-color: #8BC34A; /* New hover border color */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);

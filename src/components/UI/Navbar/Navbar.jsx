@@ -11,7 +11,7 @@ const Navbar = () => {
     }
     return (
         <div className='navbar'>
-            <MyButton style={{marginLeft:30}} onClick={logout}>Exit</MyButton>
+            <MyButton style={{marginLeft:30, backgroundColor:"#0065B5FF"}} onClick={logout}>Exit</MyButton>
             <div className="navbar__links">
                 <Link style={{textDecoration:'none',color:'white'}} to="/posts">Posts</Link>
                 <Link style={{textDecoration:'none',color:'white', marginLeft:'20px'}} to="/contacts">Contacts</Link>
