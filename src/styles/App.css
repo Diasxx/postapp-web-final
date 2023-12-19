@@ -68,20 +68,6 @@ body {
     text-decoration: underline;
 }
 
-.remove-btn {
-    margin-right: 1rem;
-    background-color: #e57373; /* Light red color */
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.remove-btn:hover {
-    background-color: #d32f2f; /* Darker red on hover */
-}
 
 .page__wrapper {
     margin-top: 20px; /* Reduced margin */
@@ -118,14 +104,6 @@ body {
     padding: 20px;
     background: #64b5f6; /* Blue background */
     color: #fff;
-}
-
-.navbar__links {
-    margin-left: auto;
-}
-
-.navbar__links:hover{
-    color: #0D47A1;
 }
 
 /* Responsive Design */
