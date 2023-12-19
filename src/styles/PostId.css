@@ -1,0 +1,95 @@
+/* PostIdPage.css */
+
+/* Base styling */
+.post-id-page {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+}
+
+/* Post details container */
+.post-details {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Post ID */
+.post-id {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Post title */
+.post-title {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #444;
+}
+
+/* Comments heading */
+.comments-heading {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2ecc71;
+    text-transform: uppercase;
+}
+
+/* Comments container */
+.comments-container {
+    margin-top: 20px;
+}
+
+/* Single comment */
+.comment {
+    margin-top: 30px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.comment:hover {
+    transform: scale(1.02);
+}
+
+/* Comment email */
+.comment-email {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+    font-family: Arial, serif;
+}
+
+/* Comment body */
+.comment-body {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Animation for comment body */
+.comment-body {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
